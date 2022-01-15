@@ -1,0 +1,163 @@
+/*-------------------------------------
+             General Theme
+-------------------------------------*/
+
+* {
+    font-family: system-ui;
+}
+
+/* Backgroud of the page */
+.x-adePanel {
+    background-color: #161616;
+}
+
+/* Left panel */
+.x-panel {
+    border-color: #7a7a7a;
+    border-radius: 5px;
+}
+
+/* Element radius */
+.x-unselectable,
+.x-unselectable * {
+    border-radius: 4px;
+}
+
+
+.planningPanelBackground,
+.gridWhite,
+.x-panel-body.x-panel-body-noheader.x-panel-body-noborder,
+body {
+    background-color: #1c1c1c;
+}
+.infoPanel {
+    background-color: #333333;
+    color: white;
+}
+#x-auto-314 {
+    color: black;
+}
+.labelLegend,
+.slot {
+    color: #ffffffc4;
+    font-family: system-ui;
+}
+
+.legend,
+.legendRightBlack,
+.legendLeftBlack,
+.legendTopBlack,
+.legendBottomBlack,
+.legendTopBottomBlack,
+.legendRightLeftBlack {
+    background-color: #282828;
+}
+
+
+div#x-auto-349,
+div div div div div div div div div span {
+    display: none;
+}
+
+
+
+
+
+
+/*-------------------------------------
+               Calendar
+-------------------------------------*/
+
+/* Days numbers */
+.x-ade-date .x-date-inner td {
+    border: 0.1px solid #333333;
+    border-radius: 0px;
+    background-color: #1c1c1c;
+}
+
+/* Days letters */
+.x-ade-date .x-date-days td {
+    background: #333333;
+    border: 1px solid #999999;
+    color: #ffffff;
+    border-radius: 0;
+}
+
+/* Top of the calendar (< MONTH YEAR >) */
+.x-ade-date .x-date-middle,
+.x-ade-date .x-date-left,
+.x-ade-date .x-date-right {
+    background-color: #161616;
+}
+
+/* Selected date/week */
+.x-ade-date .x-date-inner .x-date-selected a {
+    background-color: #ffab0066;
+    background-image: none;
+    border: 2px solid #ff8f00;
+    color: white;
+    border-radius: 0px;
+}
+
+/* Actual day */
+.x-ade-date .x-date-inner .x-date-today a {
+    border-color: #00abff;
+    border-radius: 0px;
+    border: 2px solid;
+}
+
+/* Today Button */
+.x-ade-date .x-date-bottom {
+    border-top-color: #282828;
+    background-color: #282828;
+    background-image: none;
+}
+button.x-btn-text {
+    color: white;
+    margin-top: -5px;
+}
+
+/* Calendar top bar */
+.x-panel-header {
+    background-color: #333333;
+    border-color: #282828;
+    background-image: none;
+}
+
+/* Switch between days/weeks/months/years */
+.x-form-focus,
+textarea.x-form-focus {
+    border-color: #282828;
+}
+.x-form-text,
+textarea.x-form-field {
+    background-color: #646464;
+    background-image: none;
+    color: white;
+}
+
+/* Dropdown view type changer */
+.x-view {
+    background-color: #161616;
+}
+.x-combo-list {
+    border: 0;
+}
+
+/* Dropdown element */
+.x-combo-list-item {
+    border-color: #161616;
+    padding-left: 7px;
+    color: #cdcdcd;
+}
+
+/* Selected element */
+.x-combo-list .x-combo-selected {
+    border-color: #ff8f00;
+    background-color: #282828;
+    background: none;
+    padding-left: 15px;
+    border: 1px solid #ff8f00;
+    color: white;
+    transition: ease-in-out 100ms;
+}
