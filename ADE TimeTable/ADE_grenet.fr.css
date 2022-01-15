@@ -54,8 +54,7 @@ body {
 }
 
 
-div#x-auto-349,
-div div div div div div div div div span {
+div#x-auto-349,div div div div div div div div div span img{
     display: none;
 }
 
@@ -119,7 +118,7 @@ button.x-btn-text {
 
 /* Calendar top bar */
 .x-panel-header {
-    background-color: #333333;
+    background-color: #282828;
     border-color: #282828;
     background-image: none;
 }
@@ -131,7 +130,7 @@ textarea.x-form-focus {
 }
 .x-form-text,
 textarea.x-form-field {
-    background-color: #646464;
+    background-color: #525252;
     background-image: none;
     color: white;
 }
@@ -160,4 +159,100 @@ textarea.x-form-field {
     border: 1px solid #ff8f00;
     color: white;
     transition: ease-in-out 100ms;
+}
+
+
+
+
+
+
+
+/*-------------------------------------
+                 Search
+-------------------------------------*/
+
+/* Language list elements */
+.x-menu-list-item {
+    font: normal 11px arial capital, arial, tahoma, sans-serif;
+    background-color: #282828;
+    border-radius: 7px;
+}
+
+/* Language list element text */
+a.x-menu-item {
+    color: #c5c5c5;
+}
+
+/* Active language */
+.x-menu-item-active {
+    border: 1px solid #ff8f00;
+    background-color: #333333;
+}
+
+/* List of languages */
+.x-menu {
+    border-color: #000000;
+    background-image: none;
+    border-radius: 7px;
+}
+.x-menu-list {
+    overflow-y: visible;
+    border-radius: 7px;
+}
+
+/* Search options */
+.x-toolbar {
+    border-color: #1c1c1c;
+    background-color: #1c1c1c;
+    background-image: none;
+    border-radius: 7px;
+}
+
+/* Search box */
+.x-form-field {
+    border-radius: 5px;
+    border-color: black;
+}
+
+
+
+
+
+
+/*-------------------------------------
+               Ressources
+-------------------------------------*/
+
+.x-grid3-row {
+    border-color: #1c1c1c;
+    border-top-color: #1c1c1c;
+    background-color: #1c1c1c;
+}
+.x-tree3-node-text {
+    font: normal 11px arial, tahoma, helvetica, sans-serif;
+    color: #cdcdcd;
+}
+div#x-auto-112,.x-grid3-hh,div#x-auto-110,.x-grid3-header{
+    background-color: #525252;
+    border-color: #525252;
+    background-image: none;
+}
+.x-grid3-td-COLOR, .x-grid-cell-first {
+    background-color: #1c1c1c !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.x-btn-tl, .x-btn-tr, .x-btn-tc, .x-btn-ml, .x-btn-mr, .x-btn-mc, .x-btn-bl, .x-btn-br, .x-btn-bc{
+  background-image: none;
 }
