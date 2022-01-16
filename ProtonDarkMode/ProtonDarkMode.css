@@ -1,0 +1,102 @@
+
+
+:root, .ui-standard{
+
+    --background-weak: #3333339c;
+    --optional-email-item-read-background-color: #161616;
+    --darkbg: #161616;
+    --background-norm: #1c1c1c;
+    --interaction-norm: #ff7100;
+    --signal-info:#ff7100;
+    --primary:#ff7100;
+    --signal-info-hover: #ff7100d1;
+    --signal-info-active: #ffab00;
+    --interaction-norm-hover: #c16d00;
+    --interaction-norm-active: #ffb207;
+    --textmaincolor: #cccccc;
+    --text-norm: #cccccc;
+    --borderradius: 7px;
+    
+}
+
+.eventpopover{
+
+    background:#1c1c1cdb;
+    backdrop-filter: blur(10px);
+    border-radius: var(--borderradius);
+}
+ul.unstyled.mt0.mb0,.dropdown-content,#dropdown-6,#dropdown-5,#dropdown-4,#dropdown-3,#dropdown-2,#dropdown-1,#dropdown-0{
+    background:#1c1c1c4d;
+    backdrop-filter: blur(10px);
+    border-radius: var(--borderradius);
+}
+
+.modal-container {
+    backdrop-filter: blur(20px);
+}
+
+.sidebar,.ui-prominent {
+    background-color: var(--darkbg);
+    --background-norm:#161616;
+}
+.message-content:not(.plain):not(.dark-style) {
+    background: #282828;
+    color: #ffffff;
+}
+
+.modal-content-inner {
+    background-color: #00000000;
+}
+.modal{
+    border-radius: var(--borderradius);
+    background-color: #1c1c1cd1;
+    backdrop-filter: blur(100px);
+}
+
+.scrollshadow-static,.scrollshadow-sticky--bottom,.scrollshadow-sticky--top {
+    display: none;
+}
+
+
+.bordered.relative.h100.plan-selection-plan.p2{
+  background-color: var(--background-norm);
+}
+.sign-layout-main-content,main.ui-standard.color-norm.bg-norm.relative.no-scroll.w100.max-w100.center.sign-layout.mw30r,main.ui-standard.color-norm.bg-norm.relative.no-scroll.w100.max-w100.center.sign-layout{
+  background-color: var(--darkbg);
+}
+label.inputform-container.w100.inputform-container--bigger {
+    background-color: #161616;
+}
+
+.border-top {
+    border-top: 1px solid #1c1c1c;
+}
+.no-scroll.ml1.border-bottom.pr1.pb1.mt0-25.flex-item-fluid.flex.flex-align-items-center{
+  border-bottom: 1px solid #1c1c1c;
+}
+p.text-sm {
+    color: var(--text-weak);
+}
+.dropdown {
+    border: 1px solid #5c5c5c;
+    border-radius: var(--borderradius);
+}
+
+
+
+/* Blog */
+#header .bottom {
+    padding: 1.5rem 0;
+}
+.homepage .privacy-section {
+    background: #2c2c2c;
+}
+html body #header.collapsed.navbar-inverse,#header .top, #header .bottom,#footer{
+    background: var(--darkbg);
+    /*#505061*/
+}
+
+body,.homepage #testimonials .item .testimonial a{
+  background-color: var(--background-norm);
+  color: var(--textmaincolor);
+}
